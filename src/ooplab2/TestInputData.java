@@ -18,7 +18,7 @@ public class TestInputData {
 
         // Scanner
         Scanner Scanner = new Scanner(System.in);
-        System.out.print("What are you? : ");
+        System.out.print("Whet are you? : ");
         String address = Scanner.nextLine();
         System.out.println("You from :"+address);
     }// main
