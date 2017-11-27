@@ -23,7 +23,7 @@ public class TestSeitch {
 //            default:
 //                System.out.println("Please enter number brtween 1-3, Thank you");
 //      switch
-        char c = 'A';
+        char c = 'B';
         switch (c){
             case 'A' : System.out.println("A ant");
             case 'B' : System.out.println("B bird");
