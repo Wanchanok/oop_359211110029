@@ -21,5 +21,6 @@ public class TestInputData {
         System.out.print("What are you? : ");
         String address = Scanner.nextLine();
         System.out.println("You from :"+address);
+        // testing push
     }// main
 }// class
