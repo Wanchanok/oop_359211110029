@@ -30,5 +30,5 @@ public class myString {
 
 
 
-    }//m
+    }//main
 }//class
