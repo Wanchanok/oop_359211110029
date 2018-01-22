@@ -9,7 +9,7 @@ public class StudentApp {
     s1.setMajor("Information system");
     s1.setGroup("IS221");
 
-    Student s2 = new Student("222222222222",
+    Student s2 = new Student("22222222222",
             "Girl SAIYAI",
             "Maketing",
             "ML221");
