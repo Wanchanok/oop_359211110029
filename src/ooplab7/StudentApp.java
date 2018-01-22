@@ -38,7 +38,7 @@ public class StudentApp {
     }//inputdata
 
     private static void showData(Student s) {
-        System.out.println("Student Infoo: ");
+        System.out.println("Student Info: ");
         System.out.println("ID : " + s.getId());
         System.out.println("Name : " + s.getName());
         System.out.println("Major : " + s.getMajor());
