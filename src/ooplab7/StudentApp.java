@@ -20,7 +20,13 @@ public class StudentApp {
 
     Student s3 = new Student();
     s3 = inputData(s3);
+     showData(s3);
+    //test
+        System.out.println(Student.faculty); //student คือ class
+        System.out.println(s1.faculty);       // s1 คือ opject
+
     }//m
+
 
     private static Student inputData(Student s) {
         Scanner scanner = new Scanner(System.in);
