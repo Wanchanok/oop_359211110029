@@ -8,15 +8,15 @@ public class SuperCar {
     private String countryoforigin;
 
     public SuperCar () {}
-    public SuperCar (String cb,String cc,String ce,String ms,String ct) {
-        this.carbrand = cb;
-        this.carcolor = cc;
-        this.carenginesize = ce;
-        this.maxspeed = ms;
-        this.countryoforigin = ct;
+    public SuperCar (String a,String b,String c,String d,String e) {
+        this.carbrand = a;
+        this.carcolor = b;
+        this.carenginesize = c;
+        this.maxspeed = d;
+        this.countryoforigin = e;
     }//constructor
-    //getter and setter methods
 
+    //getter and setter methods
 
     public void setCarbrand(String carbrand) {
         this.carbrand = carbrand;
@@ -56,5 +56,17 @@ public class SuperCar {
 
     public String getCountryoforigin() {
         return countryoforigin;
+    }
+
+
+
+    public String getSuperCarInfo() {
+        return "SuperCar{" +
+                "carbrand='" + carbrand + '\'' +
+                ", carcolor='" + carcolor + '\'' +
+                ", carenginesize='" + carenginesize + '\'' +
+                ", maxspeed='" + maxspeed + '\'' +
+                ", countryoforigin='" + countryoforigin + '\'' +
+                '}';
     }
 }//class
