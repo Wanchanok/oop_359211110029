@@ -1,12 +1,12 @@
 package ooplab8;
 
-public class Pet {
+public abstract class Pet {
     private String name;
     private String hairColor;
     private String gender;
     private int age;
 
-    public void makeNoise(){}
+    protected abstract void makeNoise();
 
 
     ///  กด Alt+Insert ///
