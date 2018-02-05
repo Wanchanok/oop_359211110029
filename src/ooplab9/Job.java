@@ -32,4 +32,4 @@ public class Job {
     public void setSalary(double salary) {
         this.salary = salary;
     }
-}//c
+}//class

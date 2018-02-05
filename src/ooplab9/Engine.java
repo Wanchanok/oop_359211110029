@@ -4,7 +4,7 @@ public class Engine {
     private String size;
     private String type;
 
-    //Alt+Insert Contra...
+    //Alt+Insert Contra..
     public Engine(String size, String type) {
         this.size = size;
         this.type = type;

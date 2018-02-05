@@ -54,4 +54,4 @@ public class Person {
     public void setJob(Job job) {
         this.job = job;
     }
-}//c
+}//class

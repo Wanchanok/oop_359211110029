@@ -9,7 +9,7 @@ public class Cow extends Pet{
 
     @Override //Im
     protected void makeNoise() {
-        System.out.println("Mor Mor !!!");
+        System.out.println("Mor mor !!!");
 
     }//protectoed
 }//c

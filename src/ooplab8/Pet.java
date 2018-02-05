@@ -21,7 +21,7 @@ public abstract class Pet {
                 '}';
     }
 
-    // เลือก construtor
+    // เลือกonstrutor
     public Pet(String name, String hairColor, String gender, int age) {
         //assign data to opject properties
         this.name = name;
