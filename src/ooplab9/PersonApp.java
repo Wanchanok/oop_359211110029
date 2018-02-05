@@ -9,5 +9,8 @@ public class PersonApp {
 
         System.out.println(person.toString());
 
+        person.getJob().setPosition("ขอทาน");
+        System.out.println(person.getJob());
+
     }
 }//class
